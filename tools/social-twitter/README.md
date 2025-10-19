@@ -2613,3 +2613,5 @@ Other error types typically require fixing the request (e.g., `auth`, `not_found
 All modules use the `TwitterResult<T>` type for handling errors, which is a type alias for `Result<T, TwitterError>`. This ensures consistent error propagation and formatting throughout the SDK.
 
 The error handling system makes it easier to debug issues with Twitter API calls and provides clear, actionable error messages to end users. The structured error information allows for programmatic handling of specific error conditions.
+
+<!-- Auto-update: 2025-10-19T17:55:04.528355 -->
